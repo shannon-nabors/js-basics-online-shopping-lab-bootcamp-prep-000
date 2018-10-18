@@ -63,7 +63,7 @@ console.log(addToCart('soy sauce'));
 console.log(addToCart('bacon'));
 console.log(viewCart());
 console.log(total());
-removeFromCart('orange juice');
+removeFromCart('noodles');
 console.log(viewCart());
 console.log(total());
 console.log(placeOrder());
