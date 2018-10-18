@@ -63,4 +63,5 @@ console.log(addToCart('soy sauce'));
 console.log(addToCart('bacon'));
 console.log(viewCart());
 console.log(total());
-console.log(removeFromCart('orange juice'));
+removeFromCart('orange juice'));
+console
