@@ -50,9 +50,9 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
+  price = total();
   if(!!cardNumber) {
     cart = [];
-    price = total();
     return("Your total cost is $" + price + ", which will be charged to the card " + cardNumber + ".");
   } else {
     return("Sorry, we don't have a credit card on file for you.");
