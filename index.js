@@ -40,9 +40,11 @@ function total() {
 }
 
 function removeFromCart(item) {
-  let i = 0;
-  while () {
-    
+  for (var i = 0; i < cart.length; i++) {
+  if (cart[i].itemName = item) {
+    return true;
+  } else {
+    return false;
   }
 }
 
