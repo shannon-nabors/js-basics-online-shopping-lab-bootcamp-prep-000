@@ -65,3 +65,5 @@ console.log(viewCart());
 console.log(total());
 removeFromCart('orange juice');
 console.log(viewCart());
+console.log(total());
+console.log(placeOrder());
