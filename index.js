@@ -50,8 +50,8 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  let price = total();
   if(!!cardNumber) {
+    let price = total();
     cart = [];
     return("Your total cost is $" + price + ", which will be charged to the card " + cardNumber + ".");
   } else {
