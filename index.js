@@ -57,3 +57,4 @@ console.log(addToCart('soy sauce'));
 console.log(addToCart('bacon'));
 console.log(viewCart());
 console.log(total());
+console.log(removeFromCart('bacon'));
