@@ -66,4 +66,4 @@ console.log(total());
 removeFromCart('noodles');
 console.log(viewCart());
 console.log(total());
-console.log(placeOrder());
+console.log(placeOrder(67892847));
